@@ -41,7 +41,7 @@ $(document).on("click", ".button" ,function() {
     console.log("clicked!")
     selected = $(this).attr('id')
     query = "q="+ selected;
-    queryURL = "http://api.giphy.com/v1/gifs/search?" +
+    queryURL = "https://api.giphy.com/v1/gifs/search?" +
     query + 
     APIKey;
 

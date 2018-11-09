@@ -4,7 +4,7 @@ var APIKey = "&api_key=MpmwsF4ZtiM0rNMpIHrkZhZJEz36hvfN";
 var selected = '';
 var newItemNumber = 0;
 var query = "q="+ topics[selected];
-var queryURL = "http://api.giphy.com/v1/gifs/search?" +
+var queryURL = "https://api.giphy.com/v1/gifs/search?" +
 query + 
 APIKey;
 
